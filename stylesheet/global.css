@@ -1,0 +1,25 @@
+*{
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+}
+
+body{
+       width: 100%;
+       overflow-x: hidden;
+       font-family: Inter;
+}
+
+a{
+       text-decoration: none;
+       color: inherit;
+       &:visited{
+              color: inherit;
+       }
+}
+
+.row{
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+}
